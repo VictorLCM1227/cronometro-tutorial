@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <title>Cronometro tutorial</title>
 </head>
 <body>
@@ -13,15 +15,20 @@
 
         <div id="actions">
             <button id="reset">
-
+                <i class="fa-solid fa-arrow-rotate-right"></i>
             </button>
             <button id="power" action="start">
-
+                <i class="fa-solid fa-play"></i>
             </button>
             <button id="mark">
-
+                <i class="fa-solid fa-flag"></i>
             </button>
         </div>
+
+        <div id="marks-list">
+            <p>Marca 1: 00:00:05:28</p>
+        </div>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
